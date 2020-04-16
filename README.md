@@ -33,7 +33,7 @@ Simply import `calculate_measures`, set Saliency Maps and Ground Truth paths, an
 
 To plot F-measure and Precision-Recall Curves, firstly, `Max-F` should be calculated and stored (by specifying `save`). This results in storing `Precision.npy`, `Recall.npy` and `Fmeasure_all_thresholds.npy` and then we can use them to plot curves. For example:
  ```python
->>> #res = calculate_measures(gt_dir, sm_dir, ['Max-F'], save='./')
+>>> res = calculate_measures(gt_dir, sm_dir, ['Max-F'], save='./')
 >>> prec      = np.load('save/Precision.npy')
 >>> recall    = np.load('save/Recall.npy')
 >>> f_measure = np.load('save/Fmeasure_all_thresholds.npy')
