@@ -39,6 +39,6 @@ To plot F-measure and Precision-Recall curves, firstly, `Max-F` should be calcul
 >>> f_measure = np.load('save/Fmeasure_all_thresholds.npy')
 >>> plt.plot(recall, prec)
 >>> plt.figure()
->>> plt.plot(np.arange(256), f_measure) #because 256 threholds between 0 and 1 used in the code
+>>> plt.plot(np.linspace(0, 1, len(f_measure)), f_measure) 
 ```
 
