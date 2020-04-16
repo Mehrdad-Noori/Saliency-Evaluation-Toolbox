@@ -18,7 +18,7 @@ This repository contains measures for evaluating salient object detection models
 - [scipy](https://www.scipy.org/)
 - [tqdm](https://github.com/tqdm/tqdm)
 
-###Usage
+### Usage
 
 Simply import `calculate_measures`, set Saliency Maps and Ground Truth paths, and choose measures you would like to be calculated (measures: `'MAE', 'E-measure', 'S-measure', 'Max-F', 'Adp-F', 'Wgt-F'`). All results can be saved as numpy arrays by specifying `save` parameter.   
 ```python
