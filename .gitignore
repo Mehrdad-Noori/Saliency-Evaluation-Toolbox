@@ -3,6 +3,8 @@ test.py
 /SM_ECSSD/
 /GT_ECSSD/
 /save/
+.idea/
+.gitignore
 #Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
