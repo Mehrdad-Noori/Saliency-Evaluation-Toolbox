@@ -1,4 +1,9 @@
-# Byte-compiled / optimized / DLL files
+.gitignore
+test.py
+/SM_ECSSD/
+/GT_ECSSD/
+/save/
+#Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
