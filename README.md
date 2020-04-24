@@ -41,4 +41,28 @@ To plot F-measure and Precision-Recall curves, firstly, `Max-F` should be calcul
 >>> plt.figure()
 >>> plt.plot(np.linspace(0, 1, len(f_measure)), f_measure) 
 ```
+### Citation
+```
+@article{mohammadi2020cagnet,
+  title={CAGNet: Content-Aware Guidance for Salient Object Detection},
+  author={Mohammadi, Sina and Noori, Mehrdad and Bahri, Ali and Majelan, Sina Ghofrani and Havaei, Mohammad},
+  journal={Pattern Recognition},
+  pages={107303},
+  year={2020},
+  publisher={Elsevier}
+}
+```
+
+```
+@article{noori2020dfnet,
+  title={DFNet: Discriminative feature extraction and integration network for salient object detection},
+  author={Noori, Mehrdad and Mohammadi, Sina and Majelan, Sina Ghofrani and Bahri, Ali and Havaei, Mohammad},
+  journal={Engineering Applications of Artificial Intelligence},
+  volume={89},
+  pages={103419},
+  year={2020},
+  publisher={Elsevier}
+}
+```
+
 
