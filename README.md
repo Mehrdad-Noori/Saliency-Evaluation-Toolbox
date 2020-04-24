@@ -1,7 +1,7 @@
 # Saliency-Evaluation-Toolbox
 
 
-This repository contains measures for evaluating salient object detection models in python
+This repository contains measures for evaluating salient object detection models in python.
 
 - [E-measure](https://arxiv.org/abs/1805.10421)   
 - [S-measure](https://www.crcv.ucf.edu/papers/iccv17/1164.pdf)   
